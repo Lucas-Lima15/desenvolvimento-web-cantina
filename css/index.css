@@ -1,4 +1,14 @@
-/* Navbar */
+/* Header */
 li .nav-link {
   margin-right: 30px;
+}
+
+/* Main */
+main {
+  margin-top: 50px;
+}
+
+/* Teste */
+.box {
+  border: 1px solid black;
 }
