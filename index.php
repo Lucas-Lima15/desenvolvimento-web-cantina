@@ -11,15 +11,17 @@
   <!-- ================================================================================================================= -->
   <link rel="stylesheet" href="css/index.css">
 
-  <title>Cantina web</title>
+  <title>Cantina online</title>
 </head>
 
 <body>
   <header>
+    <!-- Prender no topo com fixed-top e ajeitar o titulo -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#navbarNav">
-          <h1>Cantina Web</h1>
+          <img src="img/cantina-web.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+          
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,16 +47,42 @@
   </header>
 
   <main>
-    <div class="container">
+    <div class="container" id="#objetivos">
       <div class="row text-center">
-        <div class="col-lg-4 ">
-          <h3>Objetivo 1</h3>
+        <div class="col-lg-6">
+          <h3>Nosso Objetivo</h3>
+          <p >
+            O sistema foi criado para ser um facilitador na hora do lanche, ele permite a
+            organização da cantina quanto a demanda, controle dos pais e organizaçãona hora
+            que for pegar o lanche.
+          </p>
         </div>
-        <div class="col-lg-4 ">
-          <h3>Objetivo 2</h3>
+        <div class="col-lg-6">
+          <img src="img/cantina1.jfif" alt="">
         </div>
-        <div class="col-lg-4 ">
-          <h3>Objetivo 3</h3>
+      </div>
+    </div>
+    <div class="container vantagens" id="#vantagens">
+      <div class="row text-center">
+        <h3>Vantagens</h3>
+        <div class="col-lg-4">
+          <img src="img/cantina2.jfif" alt="">
+          <h5>Organização</h5>
+          <p>
+            Fica muito mais facil pegar o lanche
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/cantina3.jfif" alt="">
+          <h5>Controle</h5>
+          <p>
+            Tem alergia a alguma comida? Sem problema, nos bloqueamos
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/cantina4.jfif" alt="">
+          <h5>Antecipe</h5>
+          <p>Compre antes da hora do recreio e seja feliz</p>
         </div>
       </div>
     </div>
