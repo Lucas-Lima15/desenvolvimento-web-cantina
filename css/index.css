@@ -5,11 +5,15 @@ li .nav-link {
 
 /* Main */
 main {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
-.vantagens {
-  margin-top: 150px;
+.espaco {
+  margin-top: 85px;
+}
+
+.btn {
+  margin-top: 20px;
 }
 
 /* Teste */
