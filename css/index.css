@@ -1,0 +1,28 @@
+/* Header */
+li .nav-link {
+  margin-right: 30px;
+}
+
+/* Main */
+main {
+  margin-top: 100px;
+}
+
+.espaco {
+  margin-top: 85px;
+}
+
+
+.btn {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  margin-bottom: 30px;
+}
+
+/* Teste */
+.box {
+  border: 1px solid black;
+}
