@@ -47,7 +47,7 @@
   </header>
 
   <main>
-    <div class="container" id="#objetivos">
+    <div class="container" id="objetivos">
       <div class="row text-center">
         <div class="col-lg-6">
           <h3>Nosso Objetivo</h3>
@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-    <div class="container espaco">
+    <div class="container espaco" id="sua-escola">
       <div class="row text-center">
         <h3>Sua escola</h3>
           <div class="col-lg-6">
