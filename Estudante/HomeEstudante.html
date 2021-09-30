@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/student.css">
+    <link rel="stylesheet" href="../public/css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Cantina Online - Alunos</title>
@@ -17,17 +17,14 @@
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="">
-            <img src="img/cantina-web.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+            <img src="../public/img/cantina-web.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
           </a>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">Comprar</a>
+              <a class="nav-link disabled" href="HomeEstudante.html">Comprar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="saldo.html">Saldo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="extract.html">Extrato</a>
+              <a class="nav-link" href="Extrato.html">Extrato</a>
             </li>
           </ul>
         </div>
@@ -36,12 +33,17 @@
     <main>
       <div class="container espaco">
         <div class="row text-center">
+          <h5>Seu saldo: R$50,50</h5>
+        </div>
+      </div>
+      <div class="container espaco">
+        <div class="row text-center">
           <h2>Produtos</h2>
           <h3>Comidas</h3>
           <div class="row row-cols-1 row-cols-md-3 g-5">
             <div class="col">
               <div class="card">
-                          <img src="img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
+                          <img src="../public/img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
                 <div class="card-body">
                   <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -55,7 +57,7 @@
             </div>
             <div class="col">
               <div class="card">
-                          <img src="img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
+                          <img src="../public/img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
                 <div class="card-body">
                   <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -69,7 +71,7 @@
             </div>
             <div class="col">
               <div class="card">
-                          <img src="img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
+                          <img src="../public/img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
                 <div class="card-body">
                   <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -83,7 +85,7 @@
             </div>
             <div class="col">
               <div class="card">
-                          <img src="img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
+                          <img src="../public/img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
                 <div class="card-body">
                   <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -97,7 +99,7 @@
             </div>
             <div class="col">
               <div class="card">
-                          <img src="img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
+                          <img src="../public/img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
                 <div class="card-body">
                   <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -111,7 +113,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                            <img src="img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
+                            <img src="../public/img/comida/hamburguer.jpg" class="card-img-top" alt="..." width="50%" height="50%">
                   <div class="card-body">
                     <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -132,7 +134,7 @@
             
               <div class="col">
                 <div class="card">
-                            <img src="img/bebida/Bebida.png" class="card-img-top" alt="..." width="50%" height="50%">
+                            <img src="../public/img/bebida/Bebida.png" class="card-img-top" alt="..." width="50%" height="50%">
                   <div class="card-body">
                     <h5 class="card-title">Hamburgão da Tia Tânia</h5>
               <h5 class="card-title">R$ 5,00</h5>
@@ -146,11 +148,58 @@
           </div>
 
         
-      <div class="container espaco">
-        <div class="row text-center">
-          <a href="#">Carrinho</a>        
-        </div>
-      </div>
+          <div class="container espaco">
+            <div class="row text-center">
+              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#responsavel"
+                aria-expanded="false" aria-controls="collapseExample">
+                Adicionar Responsável
+              </button>
+            </div>
+            <br>
+            <div class="row text-center collapse" id="responsavel">
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="codigoForm" class="form-label">CPF</label>
+                  <input type="number" class="form-control" id="codigoForm" required>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="nomeForm" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nomeForm" required>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="fornecedorForm" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="forcenedorForm" required>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="precoForm" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="precoForm" required>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="imagemForm" class="form-label">Login</label>
+                  <input type="text" class="form-control" id="imagemForm" required>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="imagemForm" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="imagemForm" required>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
