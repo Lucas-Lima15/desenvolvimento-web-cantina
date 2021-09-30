@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <title>Cantina Online - Cantina</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">
+          <img src="../img/cantina-web.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+        </a>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="Produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="CadastroPais.html">Responsáveis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SaldoAlunos.html">Alunos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container espaco">
+      <div class="row text-center">
+        <h2>Responsáveis</h2>
+
+        <div class="table-responsive">
+          <table class="table table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">CPF</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Email</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>908.931.900-04</td>
+                <td>Leandro Joaquim Silveira</td>
+                <td>(83) 3669-9162</td>
+                <td>leandrojoaquimsilveira@alvesbarcelos.com.br</td>
+                <td><a href="" class="btn btn-primary">Editar</a></td>
+                <td><a href="" class="btn btn-danger">Excluir</a></td>
+              </tr>
+              <tr>
+                <td>908.931.900-04</td>
+                <td>Leandro Joaquim Silveira</td>
+                <td>(83) 3669-9162</td>
+                <td>leandrojoaquimsilveira@alvesbarcelos.com.br</td>
+                <td><a href="" class="btn btn-primary">Editar</a></td>
+                <td><a href="" class="btn btn-danger">Excluir</a></td>
+              </tr>
+              <tr>
+                <td>908.931.900-04</td>
+                <td>Leandro Joaquim Silveira</td>
+                <td>(83) 3669-9162</td>
+                <td>leandrojoaquimsilveira@alvesbarcelos.com.br</td>
+                <td><a href="" class="btn btn-primary">Editar</a></td>
+                <td><a href="" class="btn btn-danger">Excluir</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p></p>
+        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#responsavelButton"
+          aria-controls="offcanvasTop">Adicionar Responsável</button>
+
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="responsavelButton" aria-labelledby="offcanvasTopLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">Cadastro Responsável</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row text-center">
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="codigoForm" class="form-label">CPF</label>
+                  <input type="number" class="form-control" id="codigoForm">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="nomeForm" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nomeForm">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="fornecedorForm" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="forcenedorForm">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="precoForm" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="precoForm">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="imagemForm" class="form-label">Login</label>
+                  <input type="text" class="form-control" id="imagemForm">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <label for="imagemForm" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="imagemForm">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="mb-3">
+                  <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
