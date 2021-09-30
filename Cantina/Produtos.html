@@ -16,7 +16,8 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="">
-          <img src="../public/img/cantina-web.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+          <img src="../public/img/cantina-web.png" alt="" width="100" height="100"
+            class="d-inline-block align-text-top">
         </a>
         <ul class="nav justify-content-center">
           <li class="nav-item">
@@ -109,111 +110,100 @@
             <button class="btn btn-danger excluir">Excluir</button>
           </div>
         </div>
+      </div>      
+    </div>
+    <div class="container espaco">
+      <div class="row text-center">
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#comida" aria-expanded="false" aria-controls="collapseExample">
+          Adicionar Comida 
+        </button>
       </div>
-
-      <!-- Botão de adicionar --> 
-      <div class="row text-center" style="margin-top: 20px;">
-        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
-          aria-controls="offcanvasTop">Adicionar Comida</button>
-
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-          <div class="offcanvas-header">
-            <h5 id="offcanvasTopLabel">Cadastro Comida</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div class="row text-center">
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="codigoForm" class="form-label">Código</label>
-                  <input type="number" class="form-control" id="codigoForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="nomeForm" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nomeForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="ingredienteForm" class="form-label">Ingredientes</label>
-                  <input type="text" class="form-control" id="ingredienteForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="precoForm" class="form-label">Preço</label>
-                  <input type="text" class="form-control" id="precoForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="imagemForm" class="form-label">Imagem</label>
-                  <input type="file" class="form-control" id="imagemForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
-                </div>
-              </div>
-            </div>
+      <br>
+      <div class="row text-center collapse" id="comida">
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="codigoForm" class="form-label">Código</label>
+            <input type="number" class="form-control" id="codigoForm">
           </div>
         </div>
-
-        <p></p>
-
-        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#bebidaButton"
-          aria-controls="offcanvasTop">Adicionar Bebida</button>
-
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="bebidaButton" aria-labelledby="offcanvasTopLabel">
-          <div class="offcanvas-header">
-            <h5 id="offcanvasTopLabel">Cadastro Bebida</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="nomeForm" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nomeForm">
           </div>
-          <div class="offcanvas-body">
-            <div class="row text-center">
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="codigoForm" class="form-label">Código</label>
-                  <input type="number" class="form-control" id="codigoForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="nomeForm" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nomeForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="fornecedorForm" class="form-label">Fornecedor</label>
-                  <input type="text" class="form-control" id="forcenedorForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="precoForm" class="form-label">Preço</label>
-                  <input type="text" class="form-control" id="precoForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="imagemForm" class="form-label">Imagem</label>
-                  <input type="file" class="form-control" id="imagemForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="ingredienteForm" class="form-label">Ingredientes</label>
+            <input type="text" class="form-control" id="ingredienteForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="precoForm" class="form-label">Preço</label>
+            <input type="text" class="form-control" id="precoForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="imagemForm" class="form-label">Imagem</label>
+            <input type="file" class="form-control" id="imagemForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
           </div>
         </div>
       </div>
     </div>
+    <br>
+    <div class="container">
+      <div class="row text-center">
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#bebida" aria-expanded="false" aria-controls="collapseExample">
+          Adicionar Bebida 
+        </button>
+      </div>
+      <br>
+      <div class="row text-center collapse" id="bebida">
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="codigoForm" class="form-label">Código</label>
+            <input type="number" class="form-control" id="codigoForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="nomeForm" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nomeForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="fornecedorForm" class="form-label">Fornecedor</label>
+            <input type="text" class="form-control" id="forcenedorForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="precoForm" class="form-label">Preço</label>
+            <input type="text" class="form-control" id="precoForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="imagemForm" class="form-label">Imagem</label>
+            <input type="file" class="form-control" id="imagemForm">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <script src="../js/Cantina/produtos.js"></script>
