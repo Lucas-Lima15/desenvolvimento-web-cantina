@@ -16,7 +16,8 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="">
-          <img src="../public/img/cantina-web.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+          <img src="../public/img/cantina-web.png" alt="" width="100" height="100"
+            class="d-inline-block align-text-top">
         </a>
         <ul class="nav justify-content-center">
           <li class="nav-item">
@@ -78,59 +79,59 @@
           </table>
         </div>
         <p></p>
-        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#responsavelButton"
-          aria-controls="offcanvasTop">Adicionar Responsável</button>
+      </div>
+    </div>
 
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="responsavelButton" aria-labelledby="offcanvasTopLabel">
-          <div class="offcanvas-header">
-            <h5 id="offcanvasTopLabel">Cadastro Responsável</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="container espaco">
+      <div class="row text-center">
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#responsavel"
+          aria-expanded="false" aria-controls="collapseExample">
+          Adicionar Responsável
+        </button>
+      </div>
+      <br>
+      <div class="row text-center collapse" id="responsavel">
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="codigoForm" class="form-label">CPF</label>
+            <input type="number" class="form-control" id="codigoForm" required>
           </div>
-          <div class="offcanvas-body">
-            <div class="row text-center">
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="codigoForm" class="form-label">CPF</label>
-                  <input type="number" class="form-control" id="codigoForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="nomeForm" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nomeForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="fornecedorForm" class="form-label">Telefone</label>
-                  <input type="text" class="form-control" id="forcenedorForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="precoForm" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="precoForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="imagemForm" class="form-label">Login</label>
-                  <input type="text" class="form-control" id="imagemForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <label for="imagemForm" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="imagemForm">
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-3">
-                  <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="nomeForm" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nomeForm" required>
           </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="fornecedorForm" class="form-label">Telefone</label>
+            <input type="text" class="form-control" id="forcenedorForm" required>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="precoForm" class="form-label">Email</label>
+            <input type="email" class="form-control" id="precoForm" required>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="imagemForm" class="form-label">Login</label>
+            <input type="text" class="form-control" id="imagemForm" required>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <label for="imagemForm" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="imagemForm" required>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            <input type="submit" class="form-control btn btn-success" id="nomeForm" value="Enviar">
+          </div>
+        </div>
       </div>
     </div>
   </main>
